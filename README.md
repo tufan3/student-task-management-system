@@ -11,10 +11,6 @@ After that, run the migrations with php artisan migrate to set up the database t
 
 Now, start the development server by running php artisan serve.
 
-Once the server is running, log in as the Headmaster using the following credentials:
-Email: headmaster@gmail.com
-Password: 123456789
-
 To enable queued email notifications, run the command php artisan queue:work. 
 
 For image uploads to work properly, create a symbolic link using php artisan storage:link. 
